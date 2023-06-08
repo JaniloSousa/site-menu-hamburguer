@@ -1,0 +1,14 @@
+/* quando a tela tiver grande */
+@media screen and (min-width: 768px) {
+    span#hamburguer {
+        display: none;
+    }
+
+    nav#options {
+        display: block;
+    }
+
+    nav#options a {
+        display: inline-block;
+    }
+}

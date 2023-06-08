@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+}
+
+span#hamburguer {
+    display: block;
+    background-color: rgb(70, 70, 70);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+span#hamburguer:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+nav#options {
+    background-color: rgb(70, 70, 70);
+    display: none;
+}
+
+nav#options a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+nav#options a:hover {
+    background-color: black;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 15px 20px 15px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+main h2, p {
+    margin: 20px 0px;
+}
+
+main h2 {
+    background-color: gray;
+    padding: 5px;
+}
+
+main p {
+    line-height: 2rem;
+    text-indent: 50px;
+}
+
+footer {
+    background-color: gray;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
